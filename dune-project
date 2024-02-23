@@ -24,6 +24,14 @@
 
 (using mdx 0.1)
 
+(pin
+ (url "git+https://github.com/tmattio/opam-tailwindcss#3e60fc32bbcf82525999d83ad0f395e16107026b")
+ (package (name tailwindcss)))
+
+(pin
+ (url "git+https://github.com/tarides/olinkcheck")
+ (package (name olinkcheck)))
+
 (package
  (name ocamlorg)
  (synopsis "Official OCaml website")
